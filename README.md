@@ -15,7 +15,7 @@ A React + Vite + Tailwind CSS v4 portfolio starter with responsive navigation, d
 
 ## Before deployment
 
-- Put your latest PDF at `public/CV/Dhana_Lakshmi_Selvaraj_FrontEndDeveloper.pdf` or change the CV links in `src/App.jsx` and `src/components/Header.jsx`.
+- Put your latest PDF at `public//Dhana_Lakshmi_Selvaraj_SoftwareDeveloper_reactjs.pdf` or change the CV links in `src/App.jsx` and `src/components/Header.jsx`.
 - Verify all job titles, dates, technologies, award metrics, and certification details.
 - Add GitHub repository links to the project data in `src/components/Projects.jsx` when available.
 - Confirm project dates and all demo URLs.

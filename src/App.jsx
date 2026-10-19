@@ -24,7 +24,7 @@ export default function App() {
           <div className="pointer-events-none absolute -right-24 top-0 -z-10 h-80 w-80 rounded-full bg-indigo-500/20 blur-3xl" />
           <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-[1.35fr_.65fr]">
             <div>
-              <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-indigo-400/30 bg-indigo-500/10 px-4 py-2 text-sm font-medium text-indigo-300"><span className="h-2 w-2 rounded-full bg-emerald-400" /> Open to frontend opportunities</p>
+              <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-indigo-400/30 bg-indigo-500/10 px-4 py-2 text-sm font-medium text-indigo-300"><span className="h-2 w-2 rounded-full bg-emerald-400" /> </p>
               <p className="mb-3 text-sm font-semibold uppercase tracking-[.24em] text-slate-400">Hello, I'm</p>
               <h1 className="max-w-3xl text-4xl font-black leading-tight tracking-tight sm:text-6xl">Dhana Lakshmi <span className="gradient-text">Selvaraj</span></h1>
               <h2 className="mt-5 text-xl font-semibold text-slate-300 sm:text-2xl">Software Developer</h2>
@@ -32,7 +32,7 @@ export default function App() {
               <div className="mt-8 flex flex-wrap gap-3">
                 <a href="#projects" className="rounded-xl bg-indigo-500 px-5 py-3 font-semibold text-white shadow-lg shadow-indigo-500/20 transition hover:-translate-y-0.5 hover:bg-indigo-400">Explore projects <span aria-hidden="true">↘</span></a>
                 <a href="#contact" className="rounded-xl border border-slate-700 px-5 py-3 font-semibold text-slate-200 transition hover:border-indigo-400 hover:text-indigo-300">Contact me</a>
-                <a href="/CV/Dhana_Lakshmi_Selvaraj_FrontEndDeveloper.pdf" download className="rounded-xl border border-slate-700 px-5 py-3 font-semibold text-slate-300 transition hover:border-indigo-400 hover:text-white">Download CV ↓</a>
+                <a href="/assest/Dhana_Lakshmi_Selvaraj_SoftwareDeveloper_reactjs.pdf" download className="rounded-xl border border-slate-700 px-5 py-3 font-semibold text-slate-300 transition hover:border-indigo-400 hover:text-white">Download CV ↓</a>
               </div>
               <div className="mt-9 flex flex-wrap gap-3 text-sm text-slate-400"><span>React</span><span>•</span><span>JavaScript</span><span>•</span><span>REST APIs</span><span>•</span><span>Full-stack projects</span></div>
             </div>

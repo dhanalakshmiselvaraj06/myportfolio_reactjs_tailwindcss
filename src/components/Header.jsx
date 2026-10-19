@@ -23,7 +23,17 @@ export default function Header({ darkMode, setDarkMode }) {
           <button onClick={() => setMenuOpen(!menuOpen)} aria-expanded={menuOpen} aria-label="Toggle navigation" className="grid h-10 w-10 place-items-center rounded-xl border border-slate-200 text-xl lg:hidden dark:border-slate-700">{menuOpen ? '×' : '☰'}</button>
         </div>
       </div>
-      {menuOpen && <nav className="border-t border-slate-200 bg-white px-5 py-4 shadow-xl dark:border-slate-800 dark:bg-slate-950 lg:hidden" aria-label="Mobile navigation">{links.map(([id, label]) => <a key={id} href={`#${id}`} onClick={closeMenu} className="block rounded-lg px-3 py-3 text-sm font-medium text-slate-700 transition hover:bg-indigo-50 hover:text-indigo-600 dark:text-slate-200 dark:hover:bg-slate-900">{label}</a>)}<a onClick={closeMenu} href="/CV/Dhana_Lakshmi_Selvaraj_FrontEndDeveloper.pdf" download className="mt-2 block rounded-lg bg-indigo-500 px-3 py-3 text-center text-sm font-semibold text-white">Download CV</a></nav>}
+      {menuOpen && <nav className="border-t border-slate-200 bg-white px-5 py-4 shadow-xl dark:border-slate-800 dark:bg-slate-950 lg:hidden" aria-label="Mobile navigation">{links.map(([id, label]) => <a key={id} href={`#${id}`} onClick={closeMenu} className="block rounded-lg px-3 py-3 text-sm font-medium text-slate-700 transition hover:bg-indigo-50 hover:text-indigo-600 dark:text-slate-200 dark:hover:bg-slate-900">{label}</a>)}
+      <a
+  onClick={closeMenu}
+  href="/assest/Dhana_Lakshmi_Selvaraj_SoftwareDeveloper_reactjs.pdf"
+  download="/assest/Dhana_Lakshmi_Selvaraj_SoftwareDeveloper_reactjs.pdf"
+  className="mt-2 block rounded-lg bg-indigo-500 px-3 py-3 text-center text-sm font-semibold text-white"
+>
+  Download CV
+</a></nav>}
     </header>
   )
 }
+
+
