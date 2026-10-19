@@ -1,8 +1,10 @@
 const groups = [
-  { title: 'Frontend', icon: '✦', items: ['React.js', 'JavaScript (ES6+)', 'React Hooks', 'JSX', 'HTML5', 'CSS3', 'Tailwind CSS', 'Responsive UI'] },
-  { title: 'API & Backend', icon: '⌘', items: ['REST APIs', 'Axios', 'Python', 'Node.js', 'JWT Authentication'] },
-  { title: 'Database & DevOps', icon: '◈', items: ['PostgreSQL', 'MySQL', 'Docker', 'CI/CD', 'Git', 'GitHub Actions'] },
-  { title: 'Tools & Practices', icon: '⚙', items: ['GitHub', 'Azure', 'Render', 'Vercel', 'Agile / Scrum', 'Debugging', 'Testing'] },
+  
+{ title: 'Frontend', icon: '✦', items: ['Angular', 'AngularJS', 'Angular 2+', 'React.js', 'JavaScript (ES6+)', 'TypeScript', 'React Hooks', 'JSX', 'RxJS', 'Angular Material', 'HTML5', 'CSS3', 'Tailwind CSS', 'Responsive UI'] },
+{ title: 'API & Backend', icon: '⌘', items: ['REST APIs', 'Axios', 'Python', 'Node.js', 'JWT Authentication'] },
+{ title: 'Database & DevOps', icon: '◈', items: ['PostgreSQL', 'MySQL', 'Docker', 'CI/CD', 'Git', 'GitHub Actions'] },
+{ title: 'Tools & Practices', icon: '⚙', items: ['GitHub', 'Azure', 'Render', 'Vercel', 'Agile / Scrum', 'Debugging', 'Testing'] },
+
 ]
 export default function Skills() 
 { return <section id="skills" className="bg-slate-100/70 px-5 py-20 dark:bg-white/[.025] sm:px-8">
